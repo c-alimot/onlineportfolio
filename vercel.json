@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/lifedrawer/:path*",
+      "destination": "https://life-drawer-v2.vercel.app/:path*"
+    }
+  ]
+}
