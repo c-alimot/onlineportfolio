@@ -26,24 +26,24 @@ function Home() {
       <section id="hero" className="relative flex min-h-screen items-center overflow-hidden px-5 pb-16 pt-24 sm:px-8">
         <EtherealShadow />
 
-        <div className="relative z-10 mx-auto grid w-full max-w-6xl items-center lg:grid-cols-[1.05fr_0.95fr]">
-          <div className="max-w-3xl lg:-translate-y-10">
+        <div className="relative z-10 mx-auto flex w-full max-w-6xl items-center justify-center">
+          <div className="max-w-5xl text-center lg:-translate-y-10">
             <p className="mb-6 text-[11px] font-medium uppercase tracking-[0.34em] text-[var(--color-cream)]/58 sm:text-xs">
               JR. UX PRODUCT DESIGNER 
             </p>
 
             <h1
-              className="max-w-[10ch] text-5xl leading-[0.92] text-[var(--color-cream)] sm:text-6xl md:text-7xl lg:text-[5.4rem]"
+              className="mx-auto max-w-[18ch] text-5xl leading-[1] text-[var(--color-cream)] sm:text-6xl md:text-7xl lg:text-[5.4rem]"
               style={{ fontFamily: 'Playfair Display, serif' }}
             >
-              Designing digital experiences with clarity, structure, &amp; purpose
+              I solve real user problems through clear design, balancing user and business needs
             </h1>
 
-            <p className="mt-10 max-w-xl text-sm leading-7 text-[var(--color-cream)]/70 sm:text-base">
+            <p className="mx-auto mt-10 max-w-xl text-sm leading-7 text-[var(--color-cream)]/70 sm:text-base">
               Ready for a new design role in Vancouver or Remote in Canada 
             </p>
 
-            <div className="mt-12">
+            <div className="mt-12 flex justify-center">
               <button
                 type="button"
                 onClick={handleWorkClick}
@@ -53,8 +53,6 @@ function Home() {
               </button>
             </div>
           </div>
-
-          <div className="hidden lg:block" />
         </div>
       </section>
 
